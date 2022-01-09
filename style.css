@@ -1,0 +1,46 @@
+/* HEADER SECTION */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 0 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+/* MAIN SECTION */
+
+.intro {
+  background-color: lightgray;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* PROJECTS SECTION */
+
+.section-heading {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.project-tile {
+  background-color: lightgreen;
+}
+
+.project-image {
+  width: 50vw;
+}
+
+/* SKILLS SECTION */
+
+.skills-list {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
