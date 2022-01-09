@@ -49,6 +49,10 @@ header {
   gap: 0.5rem;
 }
 
+.skills-images {
+  width: 100px;
+}
+
 /* CONTACT SECTION */
 
 .contact {
