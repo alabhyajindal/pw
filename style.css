@@ -48,13 +48,23 @@ header {
 }
 
 h1 {
-  font-weight: 300;
+  font-weight: 500;
 }
 
 /* MAIN SECTION */
 
 .intro {
-  margin-top: 3rem !important;
+  margin-top: 3.5rem !important;
+  background-color: lightgray;
+
+  padding: 3rem 0rem;
+}
+
+.intro-text {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
 }
 
 /* PROJECTS SECTION */
@@ -63,8 +73,21 @@ h1 {
   background-color: lightsteelblue;
 }
 
+.project-tile-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 2rem;
+}
+
+/* TODO */
+
+/* .project-image:hover {
+  display: none;
+} */
+
 .project-image {
-  width: 50vw;
+  width: 45vw;
 }
 
 /* SKILLS SECTION */
@@ -127,6 +150,10 @@ h1 {
   border-radius: 3px;
   padding: 2px 4px;
   border: solid 1px lightgray;
+}
+
+.message {
+  padding-bottom: 7rem;
 }
 
 .send {
