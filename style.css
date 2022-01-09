@@ -1,13 +1,44 @@
 /* GENERAL RULES */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
 /* HEADER SECTION */
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: lightblue;
-  padding: 0 0.5rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .navbar {
@@ -16,23 +47,20 @@ header {
   gap: 2rem;
 }
 
+h1 {
+  font-weight: 300;
+}
+
 /* MAIN SECTION */
 
 .intro {
-  background-color: lightgray;
-  padding: 2rem;
-  text-align: center;
+  margin-top: 3rem !important;
 }
 
 /* PROJECTS SECTION */
 
 .projects {
   background-color: lightsteelblue;
-}
-
-.section-heading {
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .project-image {
@@ -42,19 +70,33 @@ header {
 /* SKILLS SECTION */
 
 .skills {
-  padding: 1rem;
+  max-width: 50rem;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-type-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .skills-list {
-  text-align: center;
   display: flex;
   list-style: none;
   gap: 1rem;
 }
 
 .skill-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   background-color: white;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -65,11 +107,44 @@ header {
 /* CONTACT SECTION */
 
 .contact {
-  background-color: lightpink;
+  /* background-color: lightpink; */
+  max-width: 50rem;
+  margin: auto;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-item-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-entry {
+  border-radius: 3px;
+  padding: 2px 4px;
+  border: solid 1px lightgray;
+}
+
+.send {
+  background-color: black;
+  color: white;
+  padding: 10px 0px;
 }
 
 /* FOOTER SECTION */
 
 .footer {
   background-color: lightseagreen;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+  background-color: black;
+  padding: 1.5rem 0rem;
 }

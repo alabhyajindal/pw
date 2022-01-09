@@ -7,6 +7,13 @@
     <title>Alabhya Jindal</title>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -16,16 +23,20 @@
           <li>Projects</li>
           <li>Skills</li>
           <li>Contact</li>
-          <li>Resume</li>
+          <li>
+            <a href="./resume.pdf" download="Resume">Resume</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main class="intro">
-      Hi, I'm Alabhya Jindal, a <strong>front-end developer</strong> focused on
-      creating <strong>beautiful</strong> and
-      <strong>user-friendly</strong> applications while writing
-      <strong>clean code</strong>.
+      <div class="intro-text">
+        Hi, I'm Alabhya Jindal, a <strong>front-end developer</strong><br />
+        focused on creating <strong>beautiful</strong> and
+        <strong>user-friendly</strong><br />
+        applications while writing <strong>clean code</strong>.
+      </div>
     </main>
 
     <section class="projects">
@@ -43,120 +54,142 @@
 
     <section class="skills">
       <h2 class="section-heading">Skills</h2>
-      <p>Front-end</p>
-      <ul class="skills-list">
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/js.png"
-              alt="JavaScript"
-              class="skills-images"
-            />
-            <p>JavaScript</p>
-          </div>
-        </li>
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/react.png"
-              alt="React"
-              class="skills-images"
-            />
-            <p>React</p>
-          </div>
-        </li>
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/html.png"
-              alt="HTML"
-              class="skills-images"
-            />
-            <p>HTML</p>
-          </div>
-        </li>
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/css.png"
-              alt="CSS"
-              class="skills-images"
-            />
-            <p>CSS</p>
-          </div>
-        </li>
-      </ul>
-      <p>Back-end</p>
-      <ul class="skills-list">
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/python.png"
-              alt="Python"
-              class="skills-images"
-            />
-            <p>Python</p>
-          </div>
-        </li>
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/node.png"
-              alt="Node"
-              class="skills-images"
-            />
-            <p>Node</p>
-          </div>
-        </li>
-        <li>
-          <div class="skill-cont">
-            <img src="./images/skills/c.png" alt="C" class="skills-images" />
-            <p>C</p>
-          </div>
-        </li>
-      </ul>
-      <p>Other</p>
-      <ul class="skills-list">
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/git.png"
-              alt="Git"
-              class="skills-images"
-            />
-            <p>Git</p>
-          </div>
-        </li>
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/linux.png"
-              alt="Linux"
-              class="skills-images"
-            />
-            <p>Linux</p>
-          </div>
-        </li>
-        <li>
-          <div class="skill-cont">
-            <img
-              src="./images/skills/gimp.png"
-              alt="GIMP"
-              class="skills-images"
-            />
-            <p>GIMP</p>
-          </div>
-        </li>
-      </ul>
+      <div class="skill-type-cont">
+        <p>Front-end</p>
+        <ul class="skills-list">
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/js.png"
+                alt="JavaScript"
+                class="skills-images"
+              />
+              <p>JavaScript</p>
+            </div>
+          </li>
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/react.png"
+                alt="React"
+                class="skills-images"
+              />
+              <p>React</p>
+            </div>
+          </li>
+          <!-- <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/next.png"
+                alt="Next JS"
+                class="skills-images"
+              />
+              <p>Next JS</p>
+            </div>
+          </li> -->
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/html.png"
+                alt="HTML"
+                class="skills-images"
+              />
+              <p>HTML</p>
+            </div>
+          </li>
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/css.png"
+                alt="CSS"
+                class="skills-images"
+              />
+              <p>CSS</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="skill-type-cont">
+        <p>Back-end</p>
+        <ul class="skills-list">
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/python.png"
+                alt="Python"
+                class="skills-images"
+              />
+              <p>Python</p>
+            </div>
+          </li>
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/node.png"
+                alt="Node"
+                class="skills-images"
+              />
+              <p>Node</p>
+            </div>
+          </li>
+          <li>
+            <div class="skill-cont">
+              <img src="./images/skills/c.png" alt="C" class="skills-images" />
+              <p>C</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="skill-type-cont">
+        <p>Other</p>
+        <ul class="skills-list">
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/git.png"
+                alt="Git"
+                class="skills-images"
+              />
+              <p>Git</p>
+            </div>
+          </li>
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/linux.png"
+                alt="Linux"
+                class="skills-images"
+              />
+              <p>Linux</p>
+            </div>
+          </li>
+          <li>
+            <div class="skill-cont">
+              <img
+                src="./images/skills/gimp.png"
+                alt="GIMP"
+                class="skills-images"
+              />
+              <p>GIMP</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="contact">
       <h2 class="section-heading">Contact</h2>
-      <label for="email">Email</label>
-      <input type="email" placeholder="your@email.com" />
-      <label for="message">Message</label>
-      <input />
-      <button>Send</button>
+      <div class="form-cont">
+        <div class="form-item-cont">
+          <label for="email">Email</label>
+          <input type="email" placeholder="your@email.com" class="form-entry" />
+        </div>
+        <div class="form-item-cont">
+          <label for="message">Message</label>
+          <input class="form-entry" />
+        </div>
+        <button class="send">Send</button>
+      </div>
     </section>
 
     <footer class="footer">
@@ -165,10 +198,10 @@
           href="https://github.com/alabhyajindal"
           target="_blank"
           class="social-link"
-          ><ion-icon name="logo-github"></ion-icon
+          ><ion-icon name="logo-github" size="large"></ion-icon
         ></a>
         <a href="mailto:alabhya10@gmail.com" target="_blank" class="social-link"
-          ><ion-icon name="mail-outline"></ion-icon
+          ><ion-icon name="mail-outline" size="large"></ion-icon
         ></a>
       </div>
       <p>2022 &bullet; Created by Alabhya Jindal</p>
