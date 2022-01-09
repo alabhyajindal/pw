@@ -24,13 +24,13 @@ header {
 
 /* PROJECTS SECTION */
 
+.projects {
+  background-color: lightsteelblue;
+}
+
 .section-heading {
   text-transform: uppercase;
   text-align: center;
-}
-
-.project-tile {
-  background-color: lightgreen;
 }
 
 .project-image {
@@ -39,8 +39,24 @@ header {
 
 /* SKILLS SECTION */
 
+.skills {
+  background-color: lightsalmon;
+}
+
 .skills-list {
   display: flex;
   list-style: none;
   gap: 0.5rem;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+  background-color: lightpink;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: lightseagreen;
 }
