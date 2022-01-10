@@ -13,12 +13,13 @@
     width: 70px;
   }
 
-  /* .navbar {
-    display: none;
-  } */
-
   .navbar-cont {
-    background-color: #5f5f72;
+    background: rgba(27, 26, 53, 0.95);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    color: white;
     position: absolute;
     top: 0;
     left: 0;

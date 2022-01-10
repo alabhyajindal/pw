@@ -5,7 +5,8 @@ INTRO, BG: GRAY 1
 INTRO, TEXT: GRAY 7 
 SECTION HEADINGS: GRAY 9
 HEADER, FOOTER AND BUTTON: #
-MOBILE NAVIGATION BACKGROUND: #5f5f72
+MOBILE NAVIGATION BACKGROUND: #d1d1d7
+MOBILE NAVIGATION COLOR: GRAY 9
 */
 
 /* GENERAL RULES */
@@ -52,13 +53,6 @@ header {
   align-items: center;
   background-color: #1b1a35;
 
-  /* ENABLE GLASSMORPHISM ON SCROLL */
-
-  /* background: rgba(27, 26, 53, 0.85);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px); */
-
   color: white;
   padding: 0.5rem 1rem;
 
@@ -75,6 +69,13 @@ header {
 
 h1 {
   font-weight: 500;
+}
+
+.glassmorphic-nav {
+  background: rgba(27, 26, 53, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 /* MOBILE NAVIGATION */
