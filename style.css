@@ -8,6 +8,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #343a40;
 }
 
 section {
@@ -55,7 +56,7 @@ h1 {
 
 .intro {
   margin-top: 3.5rem !important;
-  background-color: lightgray;
+  background-color: #f8f9fa;
 
   padding: 3rem 0rem;
 }
@@ -64,13 +65,14 @@ h1 {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  text-align: left;
+
+  color: #495057;
 }
 
 /* PROJECTS SECTION */
 
 .projects {
-  background-color: lightsteelblue;
   scroll-margin-top: 2.5rem;
 }
 
@@ -131,9 +133,10 @@ h1 {
 /* CONTACT SECTION */
 
 .contact {
-  /* background-color: lightpink; */
   max-width: 50rem;
   margin: auto;
+
+  padding: 2rem 1rem;
 }
 
 .form-cont {
