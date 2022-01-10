@@ -144,6 +144,10 @@ h1 {
   width: 100px;
 }
 
+.skill-type {
+  font-weight: 500;
+}
+
 /* CONTACT SECTION */
 
 .contact {

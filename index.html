@@ -86,7 +86,7 @@
     <section class="skills" id="skills">
       <h2 class="section-heading">Skills</h2>
       <div class="skill-type-cont">
-        <p>Front-end</p>
+        <p class="skill-type">Front-end</p>
         <ul class="skills-list">
           <li>
             <div class="skill-cont">
@@ -141,7 +141,7 @@
         </ul>
       </div>
       <div class="skill-type-cont">
-        <p>Back-end</p>
+        <p class="skill-type">Back-end</p>
         <ul class="skills-list">
           <li>
             <div class="skill-cont">
@@ -172,7 +172,7 @@
         </ul>
       </div>
       <div class="skill-type-cont">
-        <p>Other</p>
+        <p class="skill-type">Other</p>
         <ul class="skills-list">
           <li>
             <div class="skill-cont">
@@ -210,17 +210,26 @@
 
     <section class="contact" id="contact">
       <h2 class="section-heading">Contact</h2>
-      <div class="form-cont">
+      <form class="form-cont" data-netlify="true" method="POST">
         <div class="form-item-cont">
           <label for="email">Email</label>
-          <input type="email" placeholder="your@email.com" class="form-entry" />
+          <input
+            type="email"
+            placeholder="your@email.com"
+            class="form-entry"
+            name="email"
+          />
         </div>
         <div class="form-item-cont">
           <label for="message">Message</label>
-          <input class="form-entry message" placeholder="Hi..." />
+          <input
+            class="form-entry message"
+            placeholder="Hi..."
+            name="message"
+          />
         </div>
         <button class="send">Send</button>
-      </div>
+      </form>
     </section>
 
     <footer class="footer">
