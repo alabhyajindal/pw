@@ -68,7 +68,7 @@ h1 {
   margin-top: 3.5rem !important;
   background-color: #f1f3f5;
 
-  padding: 3rem 0rem;
+  padding: 3rem 1rem;
 }
 
 .intro-text {
@@ -134,7 +134,7 @@ h1 {
   flex-direction: column;
   gap: 15px;
   background-color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
