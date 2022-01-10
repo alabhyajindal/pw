@@ -7,6 +7,8 @@ button.addEventListener("click", function () {
   nav.classList.toggle("nav-open");
 });
 
-navLinks.addEventListener("click", function () {
-  nav.classList.remove(".nav-open");
+navLinks.forEach((item) => {
+  item.addEventListener("click", (event) => {
+    nav.classList.toggle("nav-open");
+  });
 });
