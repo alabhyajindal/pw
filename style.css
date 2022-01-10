@@ -210,4 +210,20 @@ h1 {
   .project-image {
     width: 90vw;
   }
-} ;
+}
+
+@media (max-width: 700px) {
+  .skills-images {
+    width: 70px;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-images {
+    width: 50px;
+  }
+}
