@@ -232,14 +232,14 @@ h1 {
   .skills-images {
     width: 50px;
   }
+
+  .section-heading {
+    font-size: x-large;
+  }
 }
 
 @media (max-width: 400px) {
   .skills-images {
     width: 30px;
-  }
-
-  .section-heading {
-    font-size: x-large;
   }
 }
