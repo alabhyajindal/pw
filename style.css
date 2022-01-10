@@ -81,11 +81,9 @@ h1 {
   row-gap: 2rem;
 }
 
-/* TODO */
-
-/* .project-image:hover {
-  display: none;
-} */
+.project-tile {
+  text-align: center;
+}
 
 .project-image {
   width: 45vw;
