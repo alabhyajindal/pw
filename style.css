@@ -44,6 +44,14 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #1b1a35;
+
+  /* ENABLE GLASSMORPHISM ON SCROLL */
+
+  /* background: rgba(27, 26, 53, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); */
+
   color: white;
   padding: 0.5rem 1rem;
 
@@ -60,6 +68,20 @@ header {
 
 h1 {
   font-weight: 500;
+}
+
+/* MOBILE NAVIGATION */
+
+.nav-toggle {
+  /* display: none; */
+
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 /* MAIN SECTION */
@@ -224,6 +246,12 @@ h1 {
   }
 
   .navbar {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .nav-toggle {
     display: none;
   }
 }
