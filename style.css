@@ -1,9 +1,12 @@
-/* COLORS
+/* 
+COLORS
 BODY : GRAY 8
 INTRO, BG: GRAY 1
 INTRO, TEXT: GRAY 7 
 SECTION HEADINGS: GRAY 9
-HEADER, FOOTER AND BUTTON: #1b1a35*/
+HEADER, FOOTER AND BUTTON: #
+MOBILE NAVIGATION BACKGROUND: #5f5f72
+*/
 
 /* GENERAL RULES */
 
@@ -76,12 +79,13 @@ h1 {
   /* display: none; */
 
   background: none;
-  color: inherit;
+  color: white;
   border: none;
-  padding: 0;
-  font: inherit;
   cursor: pointer;
-  outline: inherit;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
 }
 
 /* MAIN SECTION */
@@ -211,8 +215,6 @@ h1 {
 /* FOOTER SECTION */
 
 .footer {
-  background-color: lightseagreen;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -245,8 +247,33 @@ h1 {
     width: 70px;
   }
 
-  .navbar {
+  /* .navbar {
     display: none;
+  } */
+
+  .navbar-cont {
+    background-color: #5f5f72;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 2rem;
+  }
+
+  .nav-open .navbar-cont {
+    opacity: 1;
   }
 }
 
