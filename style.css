@@ -1,3 +1,10 @@
+/* COLORS
+BODY : GRAY 8
+INTRO, BG: GRAY 1
+INTRO, TEXT: GRAY 7 
+SECTION HEADINGS: GRAY 9
+HEADER, FOOTER AND BUTTON: #1b1a35*/
+
 /* GENERAL RULES */
 
 * {
@@ -24,7 +31,10 @@ a {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
+  font-size: xx-large;
   margin-bottom: 2rem;
+
+  color: #212529;
 }
 
 /* HEADER SECTION */
@@ -33,7 +43,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: #1b1a35;
   color: white;
   padding: 0.5rem 1rem;
 
@@ -56,7 +66,7 @@ h1 {
 
 .intro {
   margin-top: 3.5rem !important;
-  background-color: #f8f9fa;
+  background-color: #f1f3f5;
 
   padding: 3rem 0rem;
 }
@@ -68,6 +78,7 @@ h1 {
   text-align: left;
 
   color: #495057;
+  font-weight: 300;
 }
 
 /* PROJECTS SECTION */
@@ -79,8 +90,9 @@ h1 {
 .project-tile-cont {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  /* justify-items: center; */
   row-gap: 2rem;
+  column-gap: 2rem;
 }
 
 .project-tile {
@@ -161,9 +173,11 @@ h1 {
 }
 
 .send {
-  background-color: black;
+  background-color: #1b1a35;
   color: white;
   padding: 10px 0px;
+
+  border-radius: 3px;
 }
 
 /* FOOTER SECTION */
@@ -176,6 +190,24 @@ h1 {
   align-items: center;
 
   color: white;
-  background-color: black;
+  background-color: #1b1a35;
   padding: 1.5rem 0rem;
 }
+
+.social-links-cont {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1000px) {
+  .project-tile-cont {
+    grid-template-columns: 1fr;
+  }
+
+  .project-image {
+    width: 90vw;
+  }
+} ;
