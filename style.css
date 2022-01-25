@@ -135,6 +135,16 @@ h1 {
   border-radius: 3px;
 }
 
+.project-desc {
+  display: flex;
+  justify-content: space-between;
+  max-width: 44vw;
+  margin: 0 auto;
+}
+
+#project-title {
+  font-weight: bold;
+}
 /* SKILLS SECTION */
 
 .skills {
