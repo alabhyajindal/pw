@@ -138,7 +138,8 @@ h1 {
 .project-desc {
   display: flex;
   justify-content: space-between;
-  max-width: 44vw;
+  align-items: center;
+  width: 44vw;
   margin: 0 auto;
 }
 
