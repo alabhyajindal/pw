@@ -23,3 +23,12 @@ window.addEventListener("scroll", function () {
     nav.classList.remove("glassmorphic-nav");
   }
 });
+
+const projectTile = document.querySelector(".project-tile");
+const projectDetails = document.querySelector(".project-details");
+const projectImage = document.querySelector(".project-image");
+
+projectTile.addEventListener("click", () => {
+  projectImage.classList.toggle("project-open");
+  projectDetails.classList.toggle("project-open");
+});

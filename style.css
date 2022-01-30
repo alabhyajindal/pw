@@ -59,6 +59,8 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+
+  z-index: 1000;
 }
 
 .navbar {
@@ -126,10 +128,6 @@ h1 {
   column-gap: 2rem;
 }
 
-.project-tile {
-  text-align: center;
-}
-
 .project-image {
   width: 45vw;
   border-radius: 3px;
@@ -146,6 +144,31 @@ h1 {
 #project-title {
   font-weight: bold;
 }
+
+/* PROJECT DETAIL VIEW */
+
+.project-tile {
+  text-align: center;
+  position: relative;
+}
+
+.project-details {
+  list-style: none;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-open {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+
+  transition: all 0.5s ease-out;
+}
+
 /* SKILLS SECTION */
 
 .skills {
