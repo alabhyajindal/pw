@@ -24,11 +24,19 @@ window.addEventListener("scroll", function () {
   }
 });
 
-const projectTile = document.querySelector(".project-tile");
-const projectDetails = document.querySelector(".project-details");
-const projectImage = document.querySelector(".project-image");
+const projectTiles = document.querySelectorAll(".project-tile");
+const projectDetails = document.querySelectorAll(".project-details");
+const projectImages = document.querySelectorAll(".project-image");
 
-projectTile.addEventListener("click", () => {
-  projectImage.classList.toggle("project-open");
-  projectDetails.classList.toggle("project-open");
-});
+projectTiles.forEach((tile) =>
+  tile.addEventListener("click", () => {
+    console.log(tile);
+    tile.childNodes[1].classList.toggle("project-open");
+    tile.childNodes[3].classList.toggle("project-open");
+  })
+);
+
+// projectTile.addEventListener("click", () => {
+//   projectImage.classList.toggle("project-open");
+//   projectDetails.classList.toggle("project-open");
+// });
