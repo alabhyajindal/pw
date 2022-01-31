@@ -173,7 +173,7 @@ h1 {
   color: #495057;
 }
 
-.project-open {
+.project-hide {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;

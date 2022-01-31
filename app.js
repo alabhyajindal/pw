@@ -30,13 +30,8 @@ const projectImages = document.querySelectorAll(".project-image");
 
 projectTiles.forEach((tile) =>
   tile.addEventListener("click", () => {
-    console.log(tile);
-    tile.childNodes[1].classList.toggle("project-open");
-    tile.childNodes[3].classList.toggle("project-open");
+    tile.classList.toggle("clicked-tile");
+    tile.childNodes[1].classList.toggle("project-hide");
+    tile.childNodes[3].classList.toggle("project-hide");
   })
 );
-
-// projectTile.addEventListener("click", () => {
-//   projectImage.classList.toggle("project-open");
-//   projectDetails.classList.toggle("project-open");
-// });
