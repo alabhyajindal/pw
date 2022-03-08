@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #343a40;
 }
 
@@ -53,6 +53,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #1b1a35;
+  transition: all 0.5s;
 
   color: white;
   padding: 0.5rem 1rem;
@@ -79,6 +80,8 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+
+  transition: all 0.5s;
 }
 
 /* MOBILE NAVIGATION */
@@ -92,7 +95,7 @@ h1 {
   cursor: pointer;
 }
 
-.mobile-nav-icon[name="close-outline"] {
+.mobile-nav-icon[name='close-outline'] {
   display: none;
 }
 
